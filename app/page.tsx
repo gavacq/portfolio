@@ -10,7 +10,10 @@ export default function Page() {
       <p className="mb-4">
         {`I'm a full stack software engineer focused on human-centered design. Check out my latest projects!`}
       </p>
-      <p>{`If you're feeling brave, you can also read my blog posts.`}</p>
+      <p>{`You can also read `}
+      <a href='/blog' className='font-semibold hover:underline'>my blog </a>
+      for the latest updates on my work and assorted musings.
+      </p>
       <div className="my-8">
         <Projects />
       </div>
